@@ -4,7 +4,14 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-
+            footer {
+                position: fixed;
+                bottom: 20px;
+                text-align: center;
+                margin: auto;
+                max-width: 800px;
+                width:100%;
+            }
             body {
                 background-color: #FAF9F6;
             }
@@ -96,6 +103,11 @@
                 .mobile-break {
                     display: inline !important;
                 }
+                footer {
+                    all: unset;
+                    text-align: center;
+                }
+
             }
 
             .mobile-break {
@@ -108,12 +120,17 @@
             <div id="title"><span class="first-char">ｐ</span>ｌａｉｎｔｅｘｔ</div>
             <br>
             <div id="main-subtitle">Cryptography Reading Group<br class="mobile-break"> @ Princeton University</div>
-            <div id="main-info">Every <b>Tuesday</b> at <b>4:30pm</b> in <b>Frist 309</b>. Join our <a href="https://www.google.com/" target="_blank">mailing list</a>.</div>
+            <div id="main-info">Every <b>Tuesday</b> at <b>4:30pm</b> in <b>Frist 309</b>. Join our <a href="https://signal.group/#CjQKIGCTvd1W0LoVKBmN9lJBUCInwD688_SqV0jszVl0qXBYEhDaXvRP7McgQQ0x8UJicgH3" target="_blank">Signal chat</a>.</div>
             <hr>
             <div id="subtitle"><span class="first-char">U</span>pcoming</div>
-            <div id="event-title"> 09/03: Homomorphic encryption</div>
+            <div id="event-title"> 09/10: RSA and Coppersmith's Method</div>
             <div id="event-details">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                We can attack RSA, the most important encryption system in the world, using linear algebra! This technique is called Coppersmith's method and is incredibly versatile.
+                Come to the inaugural <span class="first-char">p</span>laintext meeting for an introduction to RSA, followed by a deep dive into lattices, the LLL algorithm, modular polynomials, Estonian ID cards, and more! <!-- (<a href="https://google.com/" target="_blank">Slides</a>) -->
+            </div>
+            <div id="event-title"> 09/17: Block Ciphers and Linear Cryptanalysis</div>
+            <div id="event-details">
+                Stay tuned...
             </div>
             <!-- Left as an exmaple but not used
             <div id="event-links">
@@ -124,21 +141,28 @@
             -->
             <hr>
             <div id="subtitle"><span class="first-char">P</span>ast</div>
-            <div id="event-title"> 09/10: Multivariate cryptography</div>
-            <div id="event-details">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> <a href="https://www.google.com/">[Slides]</a> 
-            </div>
-            <div id="event-title"> 09/17: Linear cryptanalysis</div>
-            <div id="event-details">
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<br> <a href="https://www.google.com/">[Slides]</a> 
-            </div>
-            <div id="event-title"> 09/24: Verifiable Random Functions</div>
-            <div id="event-details">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br><a href="https://www.google.com/">[Slides]</a>  
-            </div>
 
-            <div id="main-credits">Brought to you by your host Raheem Idowu '26.
+                <div id="event-details">
+                    To be filled!
+                </div>
+                <!--
+                <div id="event-title"> 09/10: Multivariate cryptography</div>
+                <div id="event-details">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> <a href="https://www.google.com/">[Slides]</a> 
+                </div>
+                <div id="event-title"> 09/17: Linear cryptanalysis</div>
+                <div id="event-details">
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<br> <a href="https://www.google.com/">[Slides]</a> 
+                </div>
+                <div id="event-title"> 09/24: Verifiable Random Functions</div>
+                <div id="event-details">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br><a href="https://www.google.com/">[Slides]</a>  
+                </div>
+                -->
+            <footer>
+            <div id="main-credits">Brought to you by Raheem Idowu '26.</div>
             <div id="secret">Yml0Lmx5L0lxVDZ6dA==</div>
+            </footer>
 
         </div>
         
