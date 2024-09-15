@@ -4,14 +4,7 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            footer {
-                position: fixed;
-                bottom: 20px;
-                text-align: center;
-                margin: auto;
-                max-width: 800px;
-                width:100%;
-            }
+
             body {
                 background-color: #FAF9F6;
             }
@@ -94,18 +87,11 @@
                 #title{
                     font-size:9vw
                 }
-                #main-credits {
-                    text-align: justify;
-                }
                 .non-mobile-break {
                     display: none;
                 }
                 .mobile-break {
                     display: inline !important;
-                }
-                footer {
-                    all: unset;
-                    text-align: center;
                 }
 
             }
@@ -123,12 +109,12 @@
             <div id="main-info">Every <b>Tuesday</b> at <b>4:30pm</b> in <b>Frist 309</b>. Join our <a href="https://signal.group/#CjQKIGCTvd1W0LoVKBmN9lJBUCInwD688_SqV0jszVl0qXBYEhDaXvRP7McgQQ0x8UJicgH3" target="_blank">Signal chat</a>.</div>
             <hr>
             <div id="subtitle"><span class="first-char">U</span>pcoming</div>
-            <div id="event-title"> 09/10: RSA and Coppersmith's Method</div>
-            <div id="event-details">
-                We can attack RSA, the most important encryption system in the world, using linear algebra! This technique is called Coppersmith's method and is incredibly versatile.
-                Come to the inaugural <span class="first-char">p</span>laintext meeting for an introduction to RSA, followed by a deep dive into lattices, the LLL algorithm, modular polynomials, Estonian ID cards, and more! <!-- (<a href="https://google.com/" target="_blank">Slides</a>) -->
-            </div>
+            
             <div id="event-title"> 09/17: AES-ECB and Padding Oracle Attacks</div>
+            <div id="event-details">
+                The block cipher AES has withstood cryptanalytic attacks for ages, and is being used everywhere right now! However, like all block ciphers, AES requires a "mode of operation" to work properly. This is where things go wrong... At <span class="first-char">p</span>laintext this week, you'll learn about AES, the ECB mode of operation, the PKCS#1 scheme, and the ECB padding oracle attack!
+            </div>
+            <div id="event-title"> 09/24: Quantum Key Distribution and BB84</div>
             <div id="event-details">
                 Stay tuned...
             </div>
@@ -142,9 +128,12 @@
             <hr>
             <div id="subtitle"><span class="first-char">P</span>ast</div>
 
-                <div id="event-details">
-                    To be filled!
-                </div>
+            <div id="event-title"> 09/10: RSA and Coppersmith's Method</div>
+            <div id="event-details">
+                We can attack RSA, the most important encryption system in the world, using linear algebra! This technique is called Coppersmith's method and is incredibly versatile.
+                Come to the inaugural <span class="first-char">p</span>laintext meeting for an introduction to RSA, followed by a deep dive into lattices, the LLL algorithm, modular polynomials, Estonian ID cards, and more! (<a href="https://docs.google.com/presentation/d/1Vl_iJNbRJ9k3gBWzx5rnEMdgLG1fTkoIzXUNG-fNgxg/edit?usp=sharing" target="_blank">Slides</a>)
+            </div>
+
                 <!--
                 <div id="event-title"> 09/10: Multivariate cryptography</div>
                 <div id="event-details">
@@ -160,7 +149,7 @@
                 </div>
                 -->
             <footer>
-            <div id="main-credits">Brought to you by Raheem Idowu '26 and Veronika Kitsul '26. Supported by <a href="https://princeton.acm.org/">Princeton ACM</a>.</div>
+            <div id="main-credits">Brought to you by Raheem Idowu '26 and Eliyahu Yablon '27. Supported by <a href="https://princeton.acm.org/">Princeton ACM</a>.</div>
             <div id="secret">Yml0Lmx5L0lxVDZ6dA==</div>
             </footer>
 
